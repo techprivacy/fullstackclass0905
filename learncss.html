@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
     <style>
-      p {
+
+      *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      }
+      /* p {
         color: green;
         font-size: 25px;
         background-color: lightcoral;
-      }
+      } */
       img {
         height: 200px;
         border-width: 5px;
@@ -22,23 +27,38 @@
         outline-offset: 10px;
         
       }
-      h1{
+      h1,h2,h3,h4{
         color: red;
       }
-      body{
+      /* body{
         background-image:linear-gradient(green 5%, lightcoral 20%,red 5%,blue);
      
-      }
-    </style>
+      } */
+.myclass{
+  color: red;
+  font-size: 24px;
+}
+.class2{
+background-color: green;
+}
+#myid{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: green;
+}
+
+</style>
   </head>
   <body>
-    <h1>Hello world</h1>
-    <p>This is my paragraph</p>
-
-    <p>This is my paragraph</p>
-
+    <h2>Hello team</h2>
+    <h1 >Hello world</h1>
+    <p class="myclass" id="myid">This is my paragraph</p>
+    <p class="myclass class2">This is my paragraph</p>
+    <p class="class2">This is my paragraph</p>
+    <p class="class2">This is my paragraph</p>
+    <p class="class2">This is my paragraph</p>
+    <p class="class2">This is my paragraph</p>
     <p style="color: white">This is my paragraph</p>
-
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere libero, vitae, iste perferendis sed dolorem mollitia beatae tempore ad ut ab ullam repellat, a eveniet enim. Eveniet, provident alias?</p>
     <img src="/images/photo1.jpg" alt="Girl Image" />
   </body>
 </html>
